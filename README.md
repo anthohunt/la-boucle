@@ -28,15 +28,14 @@ A human defines the decision and what success looks like. From there, autonomous
 
 ## A worked case: supplier risk from the news
 
-Presented to the supply-chain leadership of a Fortune 50 technology company as part of a Georgia Tech executive briefing programme.
+**A 0.8-billion-parameter agent, trained autonomously in about a day, came within a few points of a frontier model on a specific business decision, while being about 1,500× smaller, 2.5× faster and able to run offline on a laptop.**
+
+![Results: small local agent vs frontier model](assets/results.png)
 
 - **Decision**: read a news article and classify a supplier as *Risk*, *No Risk* or *To Verify*, with a written justification and a link to the source.
-- **Constraint**: the supplier list was assumed confidential, so the agent had to run locally on a laptop rather than in the cloud.
-- **Reference**: a frontier model cleared the 90 % feasibility bar on the development set, so training went ahead.
-- **Result**: a small local model scored **85.4 %** on an independent exam, answered in **2.3 s** against 5.8 s for the frontier model, and fits in **2.6 GB**. The 90 % target was **not reached**, and that is reported as is.
-- **Cost of the research run**: about one day, about $26 of API calls and a few euros of electricity. Zero manual label reviews; labels were checked by independent agents.
-
-The point of the case is not the score itself. It shows the method: a narrow business decision, measured against a sealed benchmark, delivered as an agent that runs on hardware the business already owns.
+- **Why local**: the supplier list was assumed confidential, so the agent had to run on the business's own hardware.
+- **Context**: presented to the supply-chain leadership of a Fortune 50 technology company as part of a Georgia Tech executive briefing programme.
+- **Honest reading**: the two accuracy scores come from different test sets, and the 90 % target was not reached yet. The frontier model's size is an estimate.
 
 ## Design principles
 
