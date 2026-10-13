@@ -16,6 +16,10 @@ General-purpose models are good at almost everything, and they are priced, sized
 
 <sub>The two accuracy scores come from different test sets, and the 90 % target has not been reached yet. The frontier model's size is an estimate.</sub>
 
+### Try the agent
+
+**[Download the Supplier Risk Agent](https://drive.google.com/drive/folders/1MrujvzAUr4UVTZc04md_izqEztCpwtIM)** (or scan the QR code above): a Windows desktop app that reads the news and flags supplier risks, and a Linux backend with a local API and CLI. The model and its runtime are included; nothing runs in the cloud. Setup instructions are in the folder's README.
+
 ## A worked case: supplier risk from the news
 
 Presented to the supply-chain leadership of a Fortune 50 technology company as part of a Georgia Tech executive briefing programme.
