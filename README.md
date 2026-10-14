@@ -54,7 +54,7 @@ Active R&D prototype, run end to end on several cases. It is being generalised s
 
 ## Why the source is not here
 
-La Boucle is a personal research system, and the method is the product. Happy to walk through it in detail, including a live demonstration, with anyone evaluating a collaboration.
+La Boucle is a personal research system, and the method is the product. Happy to discuss it in more detail with anyone evaluating a collaboration.
 
 ---
 
